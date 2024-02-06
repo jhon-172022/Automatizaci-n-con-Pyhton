@@ -1,4 +1,7 @@
-# Automatizacion-con-Pyhton
-Automatiza la web, Excel, correos electrónicos, archivos, carpetas y más con Python.
-Python es el mejor lenguaje de programación que puedes aprender para realizar automatizaciones. Es un lenguaje simple pero poderoso que puede ayudarte a automatizar tu vida.
-¡Bienvenido a Automatiza tu vida con Python!
+####Python es el mejor lenguaje de programación que puedes aprender para realizar automatizaciones.
+
+	1. Envío de Correos Electrónicos
+	2. Excepciones
+	3. Funciones
+	4. Diferencia Path vs OS
+ 
