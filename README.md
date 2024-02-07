@@ -1,4 +1,4 @@
-Markdown: Sintaxis
+Automatización en Python: Sintaxis
 ==================
 
 *   [Resumen](#resumen)
