@@ -19,7 +19,6 @@ Para enviar e-mails desde Python, éste nos provee smtplib, otro módulo de la l
 
 Solo necesitaremos:
 
-    *   Caramelo.
     *   Importamos la libreria smtplib.
     *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
     *   Generamos el e-mail con todos los datos definidos anteriormente.
@@ -31,10 +30,10 @@ Para enviar e-mails desde Python, éste nos provee smtplib, otro módulo de la l
 
 Solo necesitaremos:
 
-   *   Importamos la libreria smtplib.
-   *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
-   *   Generamos el e-mail con todos los datos definidos anteriormente.
-   *   Envío del mensaje usando el método sendmail del objeto SMTP.
+    *   Importamos la libreria smtplib.
+    *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
+    *   Generamos el e-mail con todos los datos definidos anteriormente.
+    *   Envío del mensaje usando el método sendmail del objeto SMTP.
 
 ## Funciones ##
 
