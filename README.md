@@ -2,7 +2,7 @@ Automatización en Python: Sintaxis
 ==================
 
 *   [Resumen](#resumen)
-    *   [Envío de Correo](#envio-de-correo)
+    *   [Envío de Correo](#envío-de-correo)
     *   [Excepciones](#excepciones)
     *   [Funciones](#funciones)
     *   [Path vs OS](#path-vs-os)
