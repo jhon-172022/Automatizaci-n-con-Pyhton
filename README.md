@@ -9,7 +9,7 @@ Automatización en Python: Sintaxis
 
 * * *
 
-# Resumen #
+## Resumen ##
 
 Este repositorio contiene proyectos de Envío de Correos, Funciones y Excepciones, Librería Path y OS completados por mí con fines de aprendizaje para realizar automatizaciones.
 
