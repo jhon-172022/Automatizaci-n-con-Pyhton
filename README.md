@@ -20,7 +20,37 @@ Para enviar e-mails desde Python, éste nos provee smtplib, otro módulo de la l
 Solo necesitaremos:
    *   Importamos la libreria smtplib.
    *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
-   *   Generamos el e-mail con todos los datos definidos anteriormente
+   *   Generamos el e-mail con todos los datos definidos anteriormente.
    *   Envío del mensaje usando el método sendmail del objeto SMTP.
 
 ### Excepciones ###
+
+Para enviar e-mails desde Python, éste nos provee smtplib, otro módulo de la librería estándar de Python, quien nos permitirá enviar mensajes de correo electrónico, incluso, en formato HTML.
+
+Solo necesitaremos:
+   *   Importamos la libreria smtplib.
+   *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
+   *   Generamos el e-mail con todos los datos definidos anteriormente.
+   *   Envío del mensaje usando el método sendmail del objeto SMTP.
+
+### Funciones ###
+
+Para enviar e-mails desde Python, éste nos provee smtplib, otro módulo de la librería estándar de Python, quien nos permitirá enviar mensajes de correo electrónico, incluso, en formato HTML.
+
+Solo necesitaremos:
+   *   Importamos la libreria smtplib.
+   *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
+   *   Generamos el e-mail con todos los datos definidos anteriormente.
+   *   Envío del mensaje usando el método sendmail del objeto SMTP.
+
+### Path vs OS ###
+
+Para enviar e-mails desde Python, éste nos provee smtplib, otro módulo de la librería estándar de Python, quien nos permitirá enviar mensajes de correo electrónico, incluso, en formato HTML.
+
+Solo necesitaremos:
+   *   Importamos la libreria smtplib.
+   *   Definimos las variables para el envío del mensaje (remitente, destinatario, asunto y mensaje) en formato HTML.
+   *   Generamos el e-mail con todos los datos definidos anteriormente.
+   *   Envío del mensaje usando el método sendmail del objeto SMTP.
+
+
