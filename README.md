@@ -1,7 +1,7 @@
 Automatización en Python: Sintaxis
 ==================
 
-*   [Resumen](#Resumen)
+*   [Resumen](#resumen)
     *   [Envío de Correo](#envío-de-correo)
     *   [Excepciones](#excepciones)
     *   [Funciones](#funciones)
