@@ -47,6 +47,7 @@ Se tiene el siguiente código que divide dos números enteros:
 Son unidades pequeñas dentro de una construcción más grande que genera una salida esperada. Si se piensa en un televisor, cada botón en el control remoto cumple una función (subir volumen, bajar volumen, etc..)
 
 Las funciones tienen dos categorías:
+
     *   Funciones incluídas (len, append, pop, etc..).
     *   Funciones definidas por el usuario.
    
@@ -58,14 +59,14 @@ Y no es de extrañarse, este módulo, entra otras cosas, nos permite manipular d
 
 Solo necesitaremos el codigo de la siguiente manera:
 
-   *   import os
-   *   os.path.exists("/users/pywombat/documents/downloads")
+    *   import os
+    *   os.path.exists("/users/pywombat/documents/downloads")
 
 Esto funciona, así que ahora modifiquemos un poco nuestro script:
 
-   *   import os
-   *   if not os.path.exists("/users/pywombat/downloads"):
-   *      os.mkdir("/users/pywombat/downloads")
+    *   import os
+    *   if not os.path.exists("/users/pywombat/downloads"):
+    *      os.mkdir("/users/pywombat/downloads")
 
 En este caso, al trabajar con Strings, todas las funciones que ejecutemos de os serán completamente independientes unas de otras, y estas carecerán del contexto para conocer sobre en qué ruta se esta trabajando, por lo tanto, si vamos a realizar múltiples operaciones sobre un mismo directorio, es necesario pasar el mismo argumento para todas las funciones, lo cual puede ser algo tedioso. 
 
@@ -75,10 +76,10 @@ A afortunadamente para nosotros, en versiones recientes del lenguaje, se añade 
 
 Por ejemplo, repliquemos el crear el directorio descargas pero ahora con Pathlib:
 
-   *   from pathlib import Path
-   *   path = Path("/users/pywombat/documents/downloads")
-   *   if not path.exists():
-   *      path.mkdir()
+    *   from pathlib import Path
+    *   path = Path("/users/pywombat/documents/downloads")
+    *   if not path.exists():
+    *      path.mkdir()
 
 Como podemos observar solo es necesario instanciar nuestra ruta y con el mismo objeto ya podemos realizar múltiples operaciones. 
 
@@ -86,9 +87,9 @@ Además de ello, con Pathlib sí podemos acceder a la meta data de los directori
 
 Veamos un par de ejemplos:
 
-   *   path = Path('/home/eduardo/projects/main.py')
-   *   path.name | path.stem | path.suffix | path.parent | path.parent.name
-   *   'main.py' | 'main'    | '.py'       | PosixPath('/home/eduardo/projects') | 'projects'
+    *   path = Path('/home/eduardo/projects/main.py')
+    *   path.name | path.stem | path.suffix | path.parent | path.parent.name
+    *   'main.py' | 'main'    | '.py'       | PosixPath('/home/eduardo/projects') | 'projects'
 
 En conclusión, si bien es cierto que con el módulo os sí podemos trabajar con directorios en Python, la verdad es que al apoyarnos de Strings, la cantidad de cosas que podemos realizar son limitadas, además, si queremos realizar múltiples operaciones sobre un mismo directorio siempre será necesario hacerle saber a las funciones sobre de que directorio estamos hablando.
 
